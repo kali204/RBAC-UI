@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9ecef; /* Lighter background */
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px; /* Increased padding */
+    background: #ffffff;
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin */
+    color: #007bff; /* Primary color */
+    font-size: 2.5rem; /* Larger font size */
+  }
+  
+  h2 {
+    margin-bottom: 25px; /* Increased margin */
+    color: #333;
+    font-size: 1.75rem; /* Larger font size */
+  }
+  
+  .section-card {
+    padding: 25px; /* Increased padding */
+    margin-bottom: 25px; /* Increased margin */
+    background-color: #ffffff;
+    border-radius: 10px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+  }
+  
+  input, select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* Increased margin */
+    padding: 12px; /* Increased padding */
+    border: 1px solid #ccc; /* Softer border */
+    border-radius: 8px; /* More rounded corners */
+    font-size: 1rem;
+    transition: border 0.3s; /* Transition for border */
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Increased padding */
+    border-radius: 8px; /* More rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Added transform */
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift on hover */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Added margin for spacing */
+  }
+  
+  table th, table td {
+    padding: 15px; /* Increased padding */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1f1f1; /* Row hover effect */
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+    
+    h1 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+    
+    h2 {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
